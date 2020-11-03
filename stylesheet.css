@@ -64,3 +64,14 @@ body{
     float: right;
     padding-left: 15px;
 }
+.box-2 img{
+    width: 30px;
+}
+
+#main-footer{
+    background-color: grey;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
