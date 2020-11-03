@@ -64,10 +64,8 @@ body{
     float: right;
     padding-left: 15px;
 }
-.box-2 img{
-    width: 30px;
-}
 
+/*Nederst på siden*/
 #main-footer{
     background-color: grey;
     color: white;
@@ -75,3 +73,6 @@ body{
     padding: 20px;
     margin-top: 40px;
 }
+#main-footer img{
+    width: 100px;
+ }
