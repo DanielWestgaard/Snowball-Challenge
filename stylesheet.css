@@ -74,5 +74,6 @@ body{
     margin-top: 40px;
 }
 #main-footer img{
-    width: 100px;
+    /*width: 200px; DROPPER DENNE, SIKTER I HTML*/
+    padding-right: 5px;
  }
