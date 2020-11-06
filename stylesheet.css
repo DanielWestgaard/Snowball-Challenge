@@ -39,6 +39,7 @@ body{
     background-color: lightskyblue;
     padding: 0px;
 }
+/*Navigasjons- baren under header*/
 #navbar{
     background-color: lightgray;
     padding: 7px;
@@ -91,6 +92,7 @@ li {
     float: right;
     padding-left: 15px;
 }
+/*Til "World Animal Protection", og generelt */
 a{
     text-decoration: none;
     color: grey;
@@ -100,6 +102,7 @@ a:hover{
 }
 
 
+/*"Lær mer" hyperkoblingen*/
 #learn-more ul{
     list-style-type: none;
     margin: 0;
@@ -121,7 +124,7 @@ a:hover{
 }
 
 
-/*Nederst på siden*/
+/*Nederst på siden, altså main- footer*/
 #main-footer{
     background-color: grey;
     color: white;
