@@ -6,6 +6,8 @@ body{
     font-style: normal;
     font-weight: normal;
 
+    line-height: 1.3em;
+
     margin: 0; /*Dette gjør slik at det ikke blir hvite
     kanter rundt*/
 
@@ -23,25 +25,50 @@ body{
     background-color: lightskyblue; /* Set a background color */
     color: black; /* Text color */
     cursor: pointer; /* Add a mouse pointer on hover */
-    padding: 15px; /* Some padding */
+    padding: 10px; /* Some padding */
     border-radius: 10px; /* Rounded corners */
-    font-size: 18px; /* Increase font size */
+    font-size: 25px; /* Increase font size */
 }
 #myBtn:hover{
-    background-color: lightcoral; /* Add a dark-grey background on hover */
+    background-color: lightgray; /* Add a dark-grey background on hover */
 }
 
 
 /*Header*/
 #main-header{
     background-color: lightskyblue;
+    padding: 0px;
 }
-
+#navbar{
+    background-color: lightgray;
+    padding: 7px;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    float: left; /*Legger punktene horisontalt == display: inline;*/
+    padding-right: 25px;
+}
+a {
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+    font-size: 18px;
+    color: black; /*Skrift farge*/
+}
+a:hover{
+    color: white;
+}
+/*Blokka alt ligger inni*/
 .container{
     margin: auto;
     overflow: hidden;
     width: 90%;
 }
+
 
 .box-1{
     /*border: black dotted 1px;*/
@@ -64,13 +91,33 @@ body{
     float: right;
     padding-left: 15px;
 }
+#learn-more ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#learn-more li {
+    float: left; /*Legger punktene horisontalt == display: inline;*/
+    padding-right: 25px;
+}
+#learn-more a {
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+    font-size: 18px;
+    color: blue; /*Skrift farge*/
+}
+#learn-more a:hover{
+    color: red;
+}
+
 
 /*Nederst på siden*/
 #main-footer{
     background-color: grey;
     color: white;
     text-align: center;
-    padding: 20px;
+    padding: 5px;
     margin-top: 40px;
 }
 #main-footer img{
