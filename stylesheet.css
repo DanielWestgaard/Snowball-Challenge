@@ -136,15 +136,16 @@ a.active,a:hover{
     padding-top: 0px;
     margin: 0;
     box-sizing: border-box;
+
 }
 .box-1 h2{
     margin-bottom: 5px;
 }
 
 .box-1 img{
-    width: 300px;
+    width: 250px;
     float: right;
-    padding-left: 25px;
+    padding-left: 10px;
     box-sizing: border-box;
 }
 
